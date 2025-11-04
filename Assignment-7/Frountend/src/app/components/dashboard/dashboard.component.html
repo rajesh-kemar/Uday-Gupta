@@ -1,0 +1,131 @@
+<div class="dashboard">
+  <h2>Logistics Dashboard</h2>
+
+  <div class="stats-grid">
+    <!-- Total Drivers -->
+    <div class="stat-card" (click)="toggleTable('drivers')">
+      <h3>Total Drivers</h3>
+      <p>{{ totalDrivers }}</p>
+
+      <div *ngIf="expanded === 'drivers'" class="inner-table">
+        <table *ngIf="drivers.length > 0">
+          <thead>
+            <tr>
+              <th *ngFor="let key of getKeys(drivers[0])">{{ key }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let d of drivers">
+              <td *ngFor="let key of getKeys(d)">{{ d[key] }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Total Vehicles -->
+    <div class="stat-card" (click)="toggleTable('vehicles')">
+      <h3>Total Vehicles</h3>
+      <p>{{ totalVehicles }}</p>
+
+      <div *ngIf="expanded === 'vehicles'" class="inner-table">
+        <table *ngIf="vehicles.length > 0">
+          <thead>
+            <tr>
+              <th *ngFor="let key of getKeys(vehicles[0])">{{ key }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let v of vehicles">
+              <td *ngFor="let key of getKeys(v)">{{ v[key] }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Available Vehicles -->
+    <div class="stat-card" (click)="toggleTable('available')">
+      <h3>Available Vehicles</h3>
+      <p>{{ availableVehicles }}</p>
+
+      <div *ngIf="expanded === 'available'" class="inner-table">
+        <table *ngIf="availableVehiclesList.length > 0">
+          <thead>
+            <tr>
+              <th *ngFor="let key of getKeys(availableVehiclesList[0])">{{ key }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let v of availableVehiclesList">
+              <td *ngFor="let key of getKeys(v)">{{ v[key] }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Active Trips -->
+    <div class="stat-card" (click)="toggleTable('activeTrips')">
+      <h3>Active Trips</h3>
+      <p>{{ activeTrips }}</p>
+
+      <div *ngIf="expanded === 'activeTrips'" class="inner-table">
+        <table *ngIf="activeTripsList.length > 0">
+          <thead>
+            <tr>
+              <th *ngFor="let key of getKeys(activeTripsList[0])">{{ key }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let t of activeTripsList">
+              <td *ngFor="let key of getKeys(t)">{{ t[key] }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Completed Trips -->
+    <div class="stat-card" (click)="toggleTable('completedTrips')">
+      <h3>Completed Trips</h3>
+      <p>{{ completedTrips }}</p>
+
+      <div *ngIf="expanded === 'completedTrips'" class="inner-table">
+        <table *ngIf="completedTripsList.length > 0">
+          <thead>
+            <tr>
+              <th *ngFor="let key of getKeys(completedTripsList[0])">{{ key }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let t of completedTripsList">
+              <td *ngFor="let key of getKeys(t)">{{ t[key] }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Trips > 8 Hours -->
+    <div class="stat-card" (click)="toggleTable('longTrips')">
+      <h3>Trips > 8 Hours</h3>
+      <p>{{ longTrips }}</p>
+
+      <div *ngIf="expanded === 'longTrips'" class="inner-table">
+        <table *ngIf="longTripsList.length > 0">
+          <thead>
+            <tr>
+              <th *ngFor="let key of getKeys(longTripsList[0])">{{ key }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let t of longTripsList">
+              <td *ngFor="let key of getKeys(t)">{{ t[key] }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

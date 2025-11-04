@@ -1,0 +1,91 @@
+<div class="vehicle-container">
+  <h2>Vehicle Management</h2>
+
+  <form #vehicleForm="ngForm" (ngSubmit)="addVehicle(vehicleForm)" novalidate>
+    <div class="form-group">
+      <label>Vehicle Number:</label>
+      <input
+        type="text"
+        name="vehicleNumber"
+        [(ngModel)]="newVehicleNumber"
+        required
+        minlength="3"
+        #vehicleNumber="ngModel"
+        placeholder="Enter vehicle number"
+      />
+      <div class="error" *ngIf="vehicleNumber.invalid && vehicleNumber.touched">
+        Vehicle Number is required (min 3 characters)
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Model (Mode of Transport):</label>
+      <select
+        name="model"
+        [(ngModel)]="newModel"
+        required
+        #model="ngModel"
+      >
+        <option value="" disabled>Select model</option>
+        <option>Car</option>
+        <option>Truck</option>
+        <option>Bike</option>
+        <option>Train</option>
+        <option>Ship</option>
+        <option>Airplane</option>
+      </select>
+      <div class="error" *ngIf="model.invalid && model.touched">
+        Please select a model
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Capacity:</label>
+      <input
+        type="number"
+        name="capacity"
+        [(ngModel)]="newCapacity"
+        required
+        min="1"
+        #capacity="ngModel"
+        placeholder="Enter capacity"
+      />
+      <div class="error" *ngIf="capacity.invalid && capacity.touched">
+        Capacity must be greater than 0
+      </div>
+    </div>
+
+    <button type="submit" [disabled]="vehicleForm.invalid">Add Vehicle</button>
+  </form>
+
+  <hr />
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Vehicle Number</th>
+        <th>Model</th>
+        <th>Capacity</th>
+        <th>Available</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let v of vehicles">
+        <td>{{ v.id }}</td>
+        <td>{{ v.vehicleNumber }}</td>
+        <td>{{ v.model }}</td>
+        <td>{{ v.capacity }}</td>
+        <td>
+          <button
+            (click)="toggleAvailability(v)"
+            [class.available]="v.isAvailable"
+            [class.not-available]="!v.isAvailable"
+          >
+            {{ v.isAvailable ? 'Yes' : 'No' }}
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

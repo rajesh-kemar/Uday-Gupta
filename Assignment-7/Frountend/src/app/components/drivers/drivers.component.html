@@ -1,0 +1,76 @@
+<div class="vehicle-container">
+  <h2>Driver Management</h2>
+
+  <form #driverForm="ngForm" (ngSubmit)="addDriver(driverForm)" novalidate>
+    <div class="form-group">
+      <label>Driver Name:</label>
+      <input
+        type="text"
+        name="name"
+        [(ngModel)]="newDriver.name"
+        required
+        minlength="3"
+        #name="ngModel"
+        placeholder="Enter driver name"
+      />
+      <div class="error" *ngIf="name.invalid && name.touched">
+        Name is required (min 3 characters)
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>License Number:</label>
+      <input
+        type="text"
+        name="licenseNumber"
+        [(ngModel)]="newDriver.licenseNumber"
+        required
+        minlength="5"
+        #licenseNumber="ngModel"
+        placeholder="Enter license number"
+      />
+      <div class="error" *ngIf="licenseNumber.invalid && licenseNumber.touched">
+        License Number is required (min 5 characters)
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Phone:</label>
+      <input
+        type="tel"
+        name="phone"
+        [(ngModel)]="newDriver.phone"
+        required
+        pattern="^[0-9]{10}$"
+        #phone="ngModel"
+        placeholder="Enter phone number"
+      />
+      <div class="error" *ngIf="phone.invalid && phone.touched">
+        Enter a valid 10-digit phone number
+      </div>
+    </div>
+
+    <button type="submit" [disabled]="driverForm.invalid">Add Driver</button>
+  </form>
+
+  <hr />
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Driver Name</th>
+        <th>License Number</th>
+        <th>Phone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let d of drivers">
+        <td>{{ d.id }}</td>
+        <td>{{ d.name }}</td>
+        <td>{{ d.licenseNumber }}</td>
+        <td>{{ d.phone }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,6 @@
+@TripApiEF_HostAddress = http://localhost:5241
+
+GET {{TripApiEF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

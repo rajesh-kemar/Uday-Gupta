@@ -1,0 +1,37 @@
+<h2>All Trips</h2>
+
+<table border="1" width="100%" cellpadding="5">
+  <thead>
+    <tr>
+      <th>Driver Id</th>
+      <th>Vehicle Id</th>
+      <th>Source</th>
+      <th>Destination</th>
+      <th>Starting Date</th>
+      <th>Ending Date</th>
+      <th>Status</th>
+      <th>mark completed</th>
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let trip of trips">
+      <td>{{ trip.driver?.name || 'N/A' }}</td>
+      <td>{{ trip.vehicle?.plateNumber || 'N/A' }}</td>
+      <td>{{ trip.source }}</td>
+      <td>{{ trip.destination }}</td>
+      <td>{{ trip.startingDate | date:'shortDate' }}</td>
+      <td>{{ trip.endingDate | date:'shortDate' }}</td>
+      <td>
+        <span [ngClass]="trip.isCompleted ? 'completed' : 'pending'">
+          {{ trip.isCompleted ? 'Completed' : 'Pending' }}
+        </span>
+      </td>
+      <td>
+        <button *ngIf="!trip.isCompleted" (click)="markCompleted(trip)">
+          Mark Complete
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>

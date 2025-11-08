@@ -1,0 +1,118 @@
+<div class="container">
+  <h2><b>🚗 TRIP MANAGEMENT</b></h2>
+
+  <!-- 🔹 Trip Creation Form -->
+  <form [formGroup]="tripForm" (ngSubmit)="onSubmit()" class="trip-form-grid">
+
+    <div class="form-row">
+      <label>Driver ID:</label>
+      <input type="number" formControlName="driverId" />
+      <small *ngIf="tripForm.get('driverId')?.touched && tripForm.get('driverId')?.invalid" class="error">
+        Driver ID is required
+      </small>
+    </div>
+
+    <div class="form-row">
+      <label>Vehicle:</label>
+      <select formControlName="vehicleId">
+        <option value="" disabled>Select Vehicle</option>
+        <option *ngFor="let v of vehicles" [value]="v.id">
+          {{ v.plateNumber || ('Vehicle #' + v.id) }}
+        </option>
+      </select>
+      <small *ngIf="tripForm.get('vehicleId')?.touched && tripForm.get('vehicleId')?.invalid" class="error">
+        Vehicle selection is required
+      </small>
+    </div>
+
+    <div class="form-row">
+      <label>Source:</label>
+      <input type="text" formControlName="source" />
+      <small *ngIf="tripForm.get('source')?.touched && tripForm.get('source')?.invalid" class="error">
+        Source is required
+      </small>
+    </div>
+
+    <div class="form-row">
+      <label>Destination:</label>
+      <input type="text" formControlName="destination" />
+      <small *ngIf="tripForm.get('destination')?.touched && tripForm.get('destination')?.invalid" class="error">
+        Destination is required
+      </small>
+    </div>
+
+    <div class="form-row">
+      <label>Starting Date & Time:</label>
+      <input type="datetime-local" formControlName="startingDate" />
+      <small *ngIf="tripForm.get('startingDate')?.touched && tripForm.get('startingDate')?.invalid" class="error">
+        Starting date is required
+      </small>
+    </div>
+
+    <div class="form-row">
+      <label>Ending Date & Time:</label>
+      <input type="datetime-local" formControlName="endingDate" />
+      <small *ngIf="tripForm.get('endingDate')?.touched && tripForm.get('endingDate')?.invalid" class="error">
+        Ending date is required
+      </small>
+    </div>
+
+    <div class="form-row">
+      <label>Status:</label>
+      <select formControlName="isCompleted">
+        <option [ngValue]="false">Pending</option>
+        <option [ngValue]="true">Completed</option>
+      </select>
+    </div>
+
+    <div class="form-row submit-row">
+      <button type="submit" [disabled]="tripForm.invalid">Submit Trip</button>
+    </div>
+  </form>
+
+  <hr />
+
+  <!-- 🔹 Trip List -->
+  <div *ngIf="trips.length > 0" class="trip-list">
+    <!-- <h3>🧾 Existing Trips</h3>
+    <table border="1" cellspacing="0" cellpadding="5">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Driver</th>
+          <th>Vehicle</th>
+          <th>Source</th>
+          <th>Destination</th>
+          <th>Start</th>
+          <th>End</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead> -->
+      <!-- <tbody>
+        <tr *ngFor="let trip of trips">
+          <td>{{ trip.id }}</td>
+          <td>{{ trip.driver?.name || trip.driverId }}</td>
+          <td>{{ trip.vehicle?.plateNumber || trip.vehicleId }}</td>
+          <td>{{ trip.source }}</td>
+          <td>{{ trip.destination }}</td>
+          <td>{{ trip.startingDate | date:'short' }}</td>
+          <td>{{ trip.endingDate | date:'short' }}</td>
+          <td [ngClass]="{'completed': trip.isCompleted, 'pending': !trip.isCompleted}">
+            {{ trip.isCompleted ? '✅ Completed' : '🕒 Pending' }}
+          </td>
+          <td>
+            <button (click)="markCompleted(trip)" [disabled]="trip.isCompleted">
+              Mark Completed
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table> -->
+  </div>
+
+  <!-- 🔹 No Trips Message -->
+  <div *ngIf="trips.length === 0">
+    <p>No trips found yet. Create one above 👆</p>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+<div class="login-container">
+  <div class="login-card">
+    <h2>Logistic System</h2>
+    <p class="subtitle">Please log in to continue</p>
+
+    <form #loginForm="ngForm" (ngSubmit)="onLogin(loginForm)">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          [(ngModel)]="username"
+          required
+          placeholder="Enter your username"
+        />
+        <small class="error" *ngIf="loginForm.submitted && !username">Username is required</small>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          [(ngModel)]="password"
+          required
+          minlength="3"
+          placeholder="Enter your password"
+        />
+        <small class="error" *ngIf="loginForm.submitted && !password">Password is required</small>
+      </div>
+
+      <div *ngIf="errorMessage" class="error-message">{{ errorMessage }}</div>
+
+      <button type="submit">Login</button>
+    </form>
+
+    <!--  Clickable registration link -->
+    <p class="register-link">
+      Don't have an account? <a routerLink="/register">Register here</a>
+    </p>
+
+  </div>
+</div>

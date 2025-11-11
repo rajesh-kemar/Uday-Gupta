@@ -1,0 +1,145 @@
+<div class="driver-container">
+  <h2>Driver Management</h2>
+
+  <!-- Driver Form -->
+  <form
+    #driverForm="ngForm"
+    (ngSubmit)="saveDriver(driverForm)"
+    class="driver-form"
+  >
+    <div class="form-group">
+      <label>Driver Name</label>
+      <input
+        type="text"
+        name="name"
+        [(ngModel)]="selectedDriver.name"
+        placeholder="Enter Driver Name"
+        required
+      />
+      <div class="error" *ngIf="driverForm.submitted && !selectedDriver.name">
+        * Driver name is required
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>License Number</label>
+      <input
+        type="text"
+        name="licenseNumber"
+        [(ngModel)]="selectedDriver.licenseNumber"
+        placeholder="Enter License Number"
+        required
+      />
+      <div
+        class="error"
+        *ngIf="driverForm.submitted && !selectedDriver.licenseNumber"
+      >
+        * License number is required
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Phone Number</label>
+      <input
+        type="text"
+        name="phone"
+        [(ngModel)]="selectedDriver.phone"
+        placeholder="Enter 10-digit Phone Number"
+        required
+      />
+      <div class="error" *ngIf="driverForm.submitted && !selectedDriver.phone">
+        * Phone number is required
+      </div>
+      <div
+        class="error"
+        *ngIf="driverForm.submitted && isPhoneInvalid(selectedDriver.phone)"
+      >
+        * Phone number must be 10 digits
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label>Experience (Years)</label>
+      <input
+        type="number"
+        name="experience"
+        [(ngModel)]="selectedDriver.experience"
+        placeholder="Experience in years"
+        min="0"
+        required
+      />
+      <div class="error" *ngIf="driverForm.submitted && !selectedDriver.experience">
+        * Experience is required
+      </div>
+    </div>
+
+    <div class="form-group checkbox">
+      <label>
+        <input
+          type="checkbox"
+          name="isAvailable"
+          [(ngModel)]="selectedDriver.isAvailable"
+        />
+        Available
+      </label>
+    </div>
+
+    <div class="button-group">
+      <button
+        type="submit"
+        class="btn-save"
+        [disabled]="driverForm.invalid || isPhoneInvalid(selectedDriver.phone)"
+      >
+        {{ isEditing ? 'Update Driver' : 'Add Driver' }}
+      </button>
+      <button
+        type="button"
+        class="cancel-btn"
+        (click)="resetForm(driverForm)"
+        *ngIf="isEditing"
+      >
+        Cancel
+      </button>
+    </div>
+  </form>
+
+  <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+  <!-- Driver Table -->
+  <table class="driver-table" *ngIf="drivers.length > 0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>License Number</th>
+        <th>Phone</th>
+        <th>Experience (Years)</th>
+        <th>Available</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let driver of drivers">
+        <td>{{ driver.id }}</td>
+        <td>{{ driver.name }}</td>
+        <td>{{ driver.licenseNumber }}</td>
+        <td>{{ driver.phone }}</td>
+        <td>{{ driver.experience }}</td>
+        <td>
+          <span *ngIf="driver.isAvailable" class="available-status yes">
+            ✅ Yes
+          </span>
+          <span *ngIf="!driver.isAvailable" class="available-status no">
+            ❌ No
+          </span>
+        </td>
+        <td>
+          <button (click)="editDriver(driver)" class="edit-btn">Edit</button>
+          <button (click)="deleteDriver(driver.id)" class="delete-btn">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="drivers.length === 0">No drivers found.</p>
+</div>

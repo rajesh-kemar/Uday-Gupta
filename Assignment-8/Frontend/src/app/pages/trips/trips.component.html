@@ -1,0 +1,115 @@
+<div class="trip-container">
+  <h2>Trip Management</h2>
+
+  <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+  <form (ngSubmit)="saveTrip()" class="trip-form">
+    <label>
+      Driver
+      <select [(ngModel)]="newTrip.driverId" name="driverId" required>
+        <option [ngValue]="null">Select Driver</option>
+        <option *ngFor="let d of drivers"
+                [ngValue]="d.id"
+                [disabled]="!d.isAvailable">
+          {{ d.name }} <span *ngIf="!d.isAvailable">(Unavailable)</span>
+        </option>
+      </select>
+    </label>
+
+    <label>
+      Vehicle
+      <select [(ngModel)]="newTrip.vehicleId" name="vehicleId" required>
+        <option [ngValue]="null">Select Vehicle</option>
+        <option *ngFor="let v of vehicles"
+                [ngValue]="v.id"
+                [disabled]="!v.isAvailable">
+          {{ v.model }} ({{ v.registrationNumber }}) <span *ngIf="!v.isAvailable">(Unavailable)</span>
+        </option>
+      </select>
+    </label>
+
+    <label>
+      Origin
+      <input type="text" [(ngModel)]="newTrip.origin" name="origin" placeholder="Origin" required>
+    </label>
+    <label>
+      Destination
+      <input type="text" [(ngModel)]="newTrip.destination" name="destination" placeholder="Destination" required>
+    </label>
+   <label>
+  Start Time
+  <input
+    type="datetime-local"
+    [(ngModel)]="newTrip.startTime"
+    name="startTime"
+    required
+  />
+</label>
+    <label>
+      Status
+      <select [(ngModel)]="newTrip.status" name="status">
+        <option value="Active">Active</option>
+        <option value="Completed">Completed</option>
+        <option value="Cancelled">Cancelled</option>
+      </select>
+    </label>
+
+    <div class="button-group">
+      <button type="submit" class="save-btn">{{ editMode ? 'Update Trip' : 'Add Trip' }}</button>
+      <button type="button" (click)="resetForm()" *ngIf="editMode" class="cancel-btn">Cancel</button>
+    </div>
+  </form>
+
+  <table class="trip-table" *ngIf="trips.length > 0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Driver</th>
+        <th>Vehicle</th>
+        <th>Origin</th>
+        <th>Destination</th>
+        <th>Start</th>
+        <th>End</th>
+        <th>Status</th>
+        <th>Active</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let t of trips">
+        <td>{{ t.id }}</td>
+        <td>{{ t.driver?.name || 'N/A' }}</td>
+        <td>{{ t.vehicle?.model || 'N/A' }}</td>
+        <td>{{ t.origin }}</td>
+        <td>{{ t.destination }}</td>
+        <td>{{ t.startTime | date:'short' }}</td>
+        <td>{{ t.endTime ? (t.endTime | date:'short') : '' }}</td>
+        <td [ngClass]="{
+              'status-active': t.status === 'Active',
+              'status-completed': t.status === 'Completed',
+              'status-cancelled': t.status === 'Cancelled'
+            }">{{ t.status }}
+        </td>
+    <td>
+  <button
+    *ngIf="t.status === 'Active'"
+    class="complete-btn"
+    (click)="markTripCompleted(t)"
+  >
+    Mark Completed
+  </button>
+  <span *ngIf="t.status !== 'Active'" class="status-label inactive"
+    >❌ Inactive</span
+  >
+</td>
+
+        <td>
+          <button class="edit-btn" (click)="editTrip(t)">Edit</button>
+          <button class="delete-btn" (click)="deleteTrip(t.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="trips.length === 0">No trips found.</p>
+</div>

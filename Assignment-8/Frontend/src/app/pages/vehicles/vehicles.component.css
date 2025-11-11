@@ -1,0 +1,216 @@
+.vehicle-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.vehicle-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.vehicle-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.vehicle-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #333;
+}
+
+.vehicle-form input[type="text"] {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.vehicle-form .checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.vehicle-form .button-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.vehicle-form button {
+  padding: 8px 15px;
+  font-size: 15px;
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.vehicle-form button:hover {
+  background: #0056b3;
+}
+
+.cancel-btn {
+  background: #6c757d;
+}
+
+.cancel-btn:hover {
+  background: #555;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.vehicle-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+}
+
+.vehicle-table th,
+.vehicle-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.vehicle-table th {
+  background: #f5f5f5;
+  font-weight: 600;
+}
+
+.status-available {
+  color: green;
+  font-weight: 600;
+}
+
+.status-unavailable {
+  color: red;
+  font-weight: 600;
+}
+
+.edit-btn {
+  background: #ffc107;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #dc3545;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #a71d2a;
+}
+
+.no-data {
+  text-align: center;
+  color: #666;
+  margin-top: 15px;
+  font-style: italic;
+}
+
+
+.vehicle-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.vehicle-table th {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-weight: 600;
+}
+
+/* Rows */
+.vehicle-table td {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+/* Alternate row color */
+.vehicle-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect (same as Driver table) */
+.vehicle-table tr:hover {
+  background-color: #e3f2fd;
+  cursor: pointer;
+}
+
+/* Action buttons */
+.edit-btn {
+  background: #ffc107;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #000;
+  transition: background 0.2s;
+}
+
+.edit-btn:hover {
+  background: #e0a800;
+}
+
+.delete-btn {
+  background: #dc3545;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  transition: background 0.2s;
+}
+
+.delete-btn:hover {
+  background: #a71d2a;
+}
+
+.status-available {
+  color: green;
+  font-weight: 600;
+}
+
+.status-unavailable {
+  color: red;
+  font-weight: 600;
+}
+
+.no-data {
+  text-align: center;
+  color: #666;
+  margin-top: 15px;
+  font-style: italic;
+}

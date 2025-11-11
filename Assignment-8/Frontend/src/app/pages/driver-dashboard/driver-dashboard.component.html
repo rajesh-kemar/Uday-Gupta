@@ -1,0 +1,72 @@
+<div class="driver-dashboard-container">
+  <h2>Welcome, {{ driver?.name || 'Driver' }} </h2>
+
+  <!-- Driver Info -->
+  <div class="driver-dashboard-form">
+    <p><strong>License Number:</strong> {{ driver?.licenseNumber }}</p>
+<p><strong>Phone Number:</strong> {{ driver?.phone }}</p>
+    <p><strong>Experience:</strong> {{ driver?.experience }} years</p>
+    <p><strong>Availability:</strong>
+      <span [ngClass]="driver?.isAvailable ? 'available' : 'not-available'">
+        {{ driver?.isAvailable ? 'Available' : 'On Trip' }}
+      </span>
+    </p>
+  </div>
+
+  <!-- Summary Cards -->
+  <div class="summary-cards">
+    <div class="card">
+      <h5>Active Trips</h5>
+      <h3>{{ activeTrips }}</h3>
+    </div>
+    <div class="card">
+      <h5>Completed Trips</h5>
+      <h3>{{ completedTrips }}</h3>
+    </div>
+    <div class="card">
+      <h5>Total Hours Driven</h5>
+      <h3>{{ totalHoursDriven | number: '1.1-1' }} hrs</h3>
+    </div>
+  </div>
+
+  <!-- Trips Table -->
+  <h3 style="margin-top: 30px;">Your Trips</h3>
+  <table class="dashboard-table" *ngIf="trips.length > 0">
+    <thead>
+      <tr>
+        <th>Trip ID</th>
+        <th>Vehicle</th>
+        <th>Origin</th>
+        <th>Destination</th>
+        <th>Start Time</th>
+        <th>End Time</th>
+        <th>Status</th>
+        <th>Hours</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let trip of trips">
+        <td>{{ trip.id }}</td>
+        <td>{{ trip.vehicle?.model || 'N/A' }}</td>
+        <td>{{ trip.origin }}</td>
+        <td>{{ trip.destination }}</td>
+        <td>{{ trip.startTime | date: 'short' }}</td>
+        <td>{{ trip.endTime ? (trip.endTime | date: 'short') : 'Ongoing' }}</td>
+        <td
+          [ngClass]="{
+            'status-active': trip.status === 'Active',
+            'status-completed': trip.status === 'Completed',
+            'status-cancelled': trip.status === 'Cancelled'
+          }"
+        >
+          {{ trip.status }}
+        </td>
+        <td>
+          {{ trip.hours ? (trip.hours | number: '1.1-1') + ' hrs' : 'Ongoing' }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="trips.length === 0">No trips found.</p>
+</div>

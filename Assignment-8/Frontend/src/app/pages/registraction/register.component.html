@@ -1,0 +1,74 @@
+<div class="register-container">
+  <h2>Driver Registration</h2>
+
+  <!-- Global Error -->
+  <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+  <!-- Role Dropdown -->
+  <div class="role-selection">
+    <label for="role">Select Role</label>
+    <select [(ngModel)]="role" name="role" (change)="onRoleChange()" required>
+      <option value="Driver" selected>Driver</option>
+      <option value="Dispatcher">Dispatcher</option>
+    </select>
+  </div>
+
+  <!-- Form -->
+  <form *ngIf="role === 'Driver'" #registerForm="ngForm" (ngSubmit)="onRegister(registerForm)" class="register-form">
+    
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" [(ngModel)]="name" name="name" placeholder="Enter full name" required #nameCtrl="ngModel">
+      <small class="error" *ngIf="nameCtrl.invalid && nameCtrl.touched">Name is required.</small>
+    </div>
+
+    <div class="form-group">
+      <label for="experience">Experience (Years)</label>
+      <input type="number" id="experience" [(ngModel)]="experience" name="experience" placeholder="Experience in years" required #expCtrl="ngModel">
+      <small class="error" *ngIf="expCtrl.invalid && expCtrl.touched">Experience is required.</small>
+    </div>
+
+    <div class="form-group">
+      <label for="licenseNumber">License Number</label>
+      <input type="text" id="licenseNumber" [(ngModel)]="licenseNumber" name="licenseNumber" placeholder="License number" required #licCtrl="ngModel">
+      <small class="error" *ngIf="licCtrl.invalid && licCtrl.touched">License number is required.</small>
+    </div>
+
+    <div class="form-group">
+      <label for="phoneNumber">Phone Number</label>
+      <input type="text" id="phoneNumber" [(ngModel)]="phoneNumber" name="phoneNumber" placeholder="10-digit number" required pattern="^[0-9]{10}$" #phoneCtrl="ngModel">
+      <small class="error" *ngIf="phoneCtrl.invalid && phoneCtrl.touched">Enter valid 10-digit phone number.</small>
+    </div>
+
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input type="text" id="username" [(ngModel)]="username" name="username" placeholder="Enter username" required #userCtrl="ngModel">
+      <small class="error" *ngIf="userCtrl.invalid && userCtrl.touched">Username is required.</small>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password</label>
+      <div class="password-field">
+        <input
+          id="password"
+          [type]="showPassword ? 'text' : 'password'"
+          [(ngModel)]="password"
+          name="password"
+          placeholder="Password"
+          required
+          (input)="validatePassword()"
+          #passCtrl="ngModel"
+        />
+        <button type="button" class="eye-btn" (click)="togglePasswordVisibility()">👁</button>
+      </div>
+      <small class="error" *ngIf="passwordError">{{ passwordError }}</small>
+      <small class="error" *ngIf="passCtrl.invalid && passCtrl.touched">Password is required.</small>
+    </div>
+
+    <button type="submit" [disabled]="passwordError || registerForm.invalid" class="submit-btn">Register</button>
+  </form>
+
+  <p class="register-link">
+    Have an account? <a routerLink="/login">Login here</a>
+  </p>
+</div>

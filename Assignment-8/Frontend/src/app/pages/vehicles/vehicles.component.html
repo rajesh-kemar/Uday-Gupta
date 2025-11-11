@@ -1,0 +1,87 @@
+<div class="vehicle-container">
+  <h2>Vehicle Management</h2>
+
+  <!-- Vehicle Form -->
+  <form #vehicleForm="ngForm" (ngSubmit)="saveVehicle(vehicleForm)" class="vehicle-form">
+    <label>
+      Registration Number
+      <input
+        type="text"
+        name="registrationNumber"
+        [(ngModel)]="selectedVehicle.registrationNumber"
+        placeholder="e.g., MH12AB1234"
+        required
+        pattern="[A-Z]{2}[0-9]{2}[A-Z]{2}[0-9]{4}"
+        #regNo="ngModel"
+      />
+      <div class="error" *ngIf="vehicleForm.submitted && regNo.invalid">
+        <small *ngIf="regNo.errors?.['required']">Registration Number is required.</small>
+        <small *ngIf="regNo.errors?.['pattern']">Format must be like MH12AB1234.</small>
+      </div>
+    </label>
+
+    <label>
+      Vehicle Model
+      <input
+        type="text"
+        name="model"
+        [(ngModel)]="selectedVehicle.model"
+        placeholder="Vehicle Model"
+        required
+        minlength="2"
+        #model="ngModel"
+      />
+      <div class="error" *ngIf="vehicleForm.submitted && model.invalid">
+        <small *ngIf="model.errors?.['required']">Model name is required.</small>
+        <small *ngIf="model.errors?.['minlength']">Model must be at least 2 characters.</small>
+      </div>
+    </label>
+
+    <label class="checkbox">
+      <input type="checkbox" name="isAvailable" [(ngModel)]="selectedVehicle.isAvailable" />
+      Available
+    </label>
+
+    <div class="button-row">
+      <button type="submit">{{ isEditing ? 'Update' : 'Add' }} Vehicle</button>
+      <button type="button" (click)="resetForm(vehicleForm)" *ngIf="isEditing" class="cancel-btn">
+        Cancel
+      </button>
+    </div>
+  </form>
+
+  <p class="error" *ngIf="errorMessage">{{ errorMessage }}</p>
+
+  <!-- Vehicle Table -->
+  <table class="vehicle-table" *ngIf="vehicles.length > 0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Registration Number</th>
+        <th>Model</th>
+        <th>Availability</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let vehicle of vehicles">
+        <td>{{ vehicle.id }}</td>
+        <td>{{ vehicle.registrationNumber }}</td>
+        <td>{{ vehicle.model }}</td>
+        <td>
+          <span
+            [ngClass]="vehicle.isAvailable ? 'status-available' : 'status-unavailable'"
+          >
+            {{ vehicle.isAvailable ? '✅ Available' : '❌ On Trip' }}
+          </span>
+        </td>
+        <td>
+          <button (click)="editVehicle(vehicle)" class="edit-btn">Edit</button>
+          <button (click)="deleteVehicle(vehicle.id)" class="delete-btn">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="vehicles.length === 0" class="no-data">No vehicles found.</p>
+</div>

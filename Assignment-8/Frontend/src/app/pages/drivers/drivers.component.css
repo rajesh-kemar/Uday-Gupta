@@ -1,0 +1,153 @@
+.driver-container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 25px;
+}
+
+/* --- Form Layout --- */
+.driver-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px 20px;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  accent-color: #007bff;
+  cursor: pointer;
+}
+
+/* --- Buttons --- */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  grid-column: 1 / -1;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #fff;
+  background-color: #007bff;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.cancel-btn {
+  background-color: #6c757d;
+}
+
+.cancel-btn:hover {
+  background-color: #565e64;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: #000;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover {
+  background-color: #a71d2a;
+}
+
+/* --- Table --- */
+.driver-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.driver-table th,
+.driver-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.driver-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.available-status {
+  font-weight: bold;
+}
+
+.available-status.yes {
+  color: green;
+}
+
+.available-status.no {
+  color: red;
+}
+
+/* --- Error Messages --- */
+.error {
+  color: #d9534f;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.no-data {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}

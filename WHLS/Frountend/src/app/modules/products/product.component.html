@@ -1,0 +1,82 @@
+<app-navbar [userName]="userName" [roles]="roles"></app-navbar>
+
+<div class="container">
+  <div class="header">
+    <h2>Products</h2>
+ <div class="actions">
+  <select [(ngModel)]="searchBy" class="filter-dropdown">
+    <option value="name">Name</option>
+    <option value="weight">Weight</option>
+    <!-- Add more options if needed -->
+  </select>
+
+  <input
+    type="text"
+    placeholder="Search products..."
+    [(ngModel)]="searchText"
+    (input)="searchProducts()"
+    class="search-box"
+  >
+
+  <button class="add-btn" (click)="openAdd()">+ Add Product</button>
+</div>
+
+  </div>
+
+  <div *ngIf="loadingProducts">Loading products...</div>
+
+  <table *ngIf="!loadingProducts && products.length">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Weight (Kg)</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let p of products; let i = index">
+        <td>{{ (page - 1) * pageSize + i + 1 }}</td>
+        <td>{{ p.name }}</td>
+        <td>{{ p.description }}</td>
+        <td>{{ p.weight }}</td>
+        <td>
+          <button (click)="editProduct(p)">Edit</button>
+          <button class="danger" (click)="deleteProduct(p.productId)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="!loadingProducts && !products.length">No products found</p>
+
+  <div class="pagination">
+    <button (click)="prevPage()">Prev</button>
+    <span>Page {{ page }}</span>
+    <button (click)="nextPage()">Next</button>
+    <select [(ngModel)]="pageSize" (change)="changePageSize()">
+      <option *ngFor="let s of pageSizeOptions" [value]="s">{{ s }}</option>
+    </select>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal-backdrop" *ngIf="showAddForm">
+  <div class="modal">
+    <h3>{{ isEditMode ? 'Edit Product' : 'Add Product' }}</h3>
+    <div class="modal-body">
+      <input placeholder="Name" [(ngModel)]="product.name" />
+      <input placeholder="Description" [(ngModel)]="product.description" />
+      <input type="number" placeholder="Weight" [(ngModel)]="product.weight" />
+
+      <p class="error" *ngIf="formError">{{ formMessage }}</p>
+    </div>
+    <div class="modal-actions">
+      <button class="save-btn" (click)="submitForm()" [disabled]="isSubmitting">
+        {{ isSubmitting ? 'Saving...' : 'Save' }}
+      </button>
+      <button class="cancel" (click)="closeForm()">Cancel</button>
+    </div>
+  </div>
+</div>

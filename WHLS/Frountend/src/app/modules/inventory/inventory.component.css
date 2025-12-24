@@ -1,0 +1,100 @@
+.container { padding: 22px; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.header input {
+  padding: 6px 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-btn {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn:hover { background: #1565c0; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th { background: #f5f5f5; }
+
+button {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.danger {
+  background: #ff4d4f;
+  color: white;
+  margin-left: 6px;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal input, .modal select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.save-btn {
+  background: #1976d2;
+  color: white;
+}
+
+.cancel {
+  background: #ccc;
+}
+
+.pagination {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

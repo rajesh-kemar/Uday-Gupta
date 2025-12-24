@@ -1,0 +1,49 @@
+/* Use the same UI enhancements from Vehicle page */
+
+.container { padding: 22px; }
+
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.actions { display: flex; align-items: center; gap: 10px; }
+
+.filter-dropdown {
+  padding: 6px 12px; border-radius: 6px; border: 1px solid #ccc;
+  background: white; font-size: 14px; cursor: pointer; transition: all 0.2s ease;
+}
+.filter-dropdown:hover { border-color: #1976d2; }
+.filter-dropdown:focus { outline: none; border-color: #1565c0; box-shadow: 0 0 4px rgba(25,118,210,0.5); }
+
+.search-box {
+  padding: 6px 12px; border-radius: 6px; border: 1px solid #ccc; font-size: 14px; width: 200px;
+  transition: all 0.2s ease;
+}
+.search-box:focus { outline: none; border-color: #1976d2; box-shadow: 0 0 4px rgba(25,118,210,0.5); }
+
+.add-btn { height: 36px; display: flex; align-items: center; justify-content: center; background: #1976d2; color: white; border: none; border-radius: 6px; cursor: pointer; }
+.add-btn:hover { background: #1565c0; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+th { background: #f5f5f5; }
+
+button { padding: 6px 10px; border-radius: 4px; border: none; cursor: pointer; }
+button:hover { opacity: 0.9; }
+.danger { background: #ff4d4f; color: white; margin-left: 6px; }
+.danger:hover { background: #e53935; }
+
+.pagination { margin-top: 15px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.page-btn, .page-number, .page-size {
+  padding: 6px 12px; border-radius: 6px; border: 1px solid #ccc; cursor: pointer; transition: all 0.2s ease;
+}
+.page-btn { background: #1976d2; color: white; border: none; }
+.page-btn:hover { background: #1565c0; }
+.page-number:hover { background: #f5f5f5; }
+.active-page { background: #1976d2; color: white; border: 1px solid #1976d2; }
+
+.modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; z-index: 1000; }
+.modal { background: white; width: 400px; padding: 20px; border-radius: 8px; box-shadow: 0px 2px 10px rgba(0,0,0,0.3); text-align: center; }
+.modal input, .modal select { width: 90%; margin: 6px 0; padding: 8px; border-radius: 4px; border: 1px solid #ccc; }
+.modal-actions { display: flex; justify-content: center; gap: 10px; margin-top: 10px; }
+.save-btn { background: #1976d2; color: white; padding: 8px 14px; border-radius: 6px; cursor: pointer; border: none; }
+.save-btn:hover { background: #1565c0; }
+.cancel { background: #ccc; padding: 8px 14px; border-radius: 6px; cursor: pointer; }
+.cancel:hover { background: #999; }

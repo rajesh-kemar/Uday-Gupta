@@ -1,0 +1,102 @@
+<app-navbar [userName]="userName" [roles]="roles"></app-navbar>
+
+<div class="container">
+  <div *ngIf="loadingInventories" class="loading">
+    Loading inventories...
+  </div>
+
+  <div *ngIf="!loadingInventories">
+    <div class="header">
+      <h2>Inventories</h2>
+
+      <div class="actions">
+        <input
+          type="text"
+          placeholder="Search by Warehouse or Product"
+          [(ngModel)]="searchText"
+          (input)="searchInventories()"
+        />
+        <button class="add-btn" (click)="openAdd()">+ Add Inventory</button>
+      </div>
+    </div>
+
+    <table *ngIf="pagedInventories.length">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Quantity</th>
+          <th>Warehouse</th>
+          <th>Product</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let inv of pagedInventories">
+          <td>{{ inv.inventoryId }}</td>
+          <td>{{ inv.quantity }}</td>
+          <td>{{ inv.warehouseName }}</td>
+          <td>{{ inv.productName }}</td>
+          <td>
+            <button (click)="editInventory(inv)">Edit</button>
+            <button class="danger" (click)="deleteInventory(inv.inventoryId)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p *ngIf="!pagedInventories.length">No inventories found</p>
+
+    <!-- Pagination -->
+    <div class="pagination" *ngIf="inventories.length > pageSize">
+      <button (click)="prevPage()" [disabled]="page === 1">Prev</button>
+
+      <span>Page {{ page }}</span>
+
+      <button
+        (click)="nextPage()"
+        [disabled]="page * pageSize >= inventories.length"
+      >
+        Next
+      </button>
+
+      <select [(ngModel)]="pageSize" (change)="changePageSize()">
+        <option *ngFor="let s of pageSizeOptions" [value]="s">{{ s }}</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<!-- ADD / EDIT MODAL -->
+<div class="modal-backdrop" *ngIf="showAddForm">
+  <div class="modal">
+    <h3>{{ isEditMode ? 'Update Inventory' : 'Add Inventory' }}</h3>
+
+    <label>Warehouse</label>
+    <select
+      [(ngModel)]="inventory.warehouseId"
+      (change)="onWarehouseChange($event)"
+    >
+      <option *ngFor="let w of warehouses" [value]="w.warehouseId">
+        {{ w.name }}
+      </option>
+    </select>
+
+    <label>Product</label>
+    <select [(ngModel)]="inventory.productId">
+      <option *ngFor="let p of products" [value]="p.productId">
+        {{ p.name }}
+      </option>
+    </select>
+
+    <label>Quantity</label>
+    <input type="number" [(ngModel)]="inventory.quantity" />
+
+    <div class="modal-actions">
+      <button class="save-btn" (click)="submitForm()" [disabled]="isSubmitting">
+        {{ isSubmitting ? 'Saving...' : 'Save' }}
+      </button>
+      <button class="cancel" (click)="closeForm()">Cancel</button>
+    </div>
+  </div>
+</div>

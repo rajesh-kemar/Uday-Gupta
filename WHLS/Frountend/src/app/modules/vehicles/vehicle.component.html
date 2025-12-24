@@ -1,0 +1,90 @@
+<app-navbar [userName]="userName" [roles]="roles"></app-navbar>
+
+<div class="container">
+  <div class="header">
+    <h2>Vehicles</h2>
+    <div class="actions">
+  <select [(ngModel)]="searchBy" class="filter-dropdown">
+    <option value="vehicleNumber">Vehicle Number</option>
+    <option value="type">Type</option>
+    <option value="status">Status</option>
+  </select>
+  
+  <input
+    type="text"
+    placeholder="Search..."
+    [(ngModel)]="searchText"
+    (input)="searchVehicles()"
+    class="search-box"
+  />
+  
+  <button class="add-btn" (click)="openAdd()">+ Add Vehicle</button>
+</div>
+  </div>
+
+  <div *ngIf="loadingVehicles">Loading vehicles...</div>
+
+  <table *ngIf="!loadingVehicles && vehicles.length">
+    <thead>
+      <tr>
+        <th>id</th>
+        <th>Vehicle Number</th>
+        <th>Type</th>
+        <th>Capacity</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let v of vehicles; let i = index">
+        <td>{{ (page - 1) * pageSize + i + 1 }}</td>
+        <td>{{ v.vehicleNumber }}</td>
+        <td>{{ v.type }}</td>
+        <td>{{ v.capacity }}</td>
+        <td>
+          <span [ngClass]="{'active': v.isActive, 'inactive': !v.isActive}">
+            {{ v.isActive ? 'Active' : 'Inactive' }}
+          </span>
+        </td>
+        <td>
+          <button (click)="editVehicle(v)">Edit</button>
+          <button class="danger" (click)="deleteVehicle(v.vehicleId)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="!loadingVehicles && !vehicles.length">No vehicles found</p>
+
+  <div class="pagination">
+    <button (click)="prevPage()">Prev</button>
+    <span>Page {{ page }}</span>
+    <button (click)="nextPage()">Next</button>
+    <select [(ngModel)]="pageSize" (change)="changePageSize()">
+      <option *ngFor="let s of pageSizeOptions" [value]="s">{{ s }}</option>
+    </select>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal-backdrop" *ngIf="showAddForm">
+  <div class="modal">
+    <h3>{{ isEditMode ? 'Edit Vehicle' : 'Add Vehicle' }}</h3>
+    <div class="modal-body">
+      <input placeholder="Vehicle Number" [(ngModel)]="vehicle.vehicleNumber" />
+      <input placeholder="Vehicle Type" [(ngModel)]="vehicle.type" />
+      <input type="number" placeholder="Capacity" [(ngModel)]="vehicle.capacity" />
+      <select [(ngModel)]="vehicle.isActive">
+        <option [ngValue]="true">Active</option>
+        <option [ngValue]="false">Inactive</option>
+      </select>
+      <p class="error" *ngIf="formError">{{ formMessage }}</p>
+    </div>
+    <div class="modal-actions">
+      <button class="save-btn" (click)="submitForm()" [disabled]="isSubmitting">
+        {{ isSubmitting ? 'Saving...' : 'Save' }}
+      </button>
+      <button class="cancel" (click)="closeForm()">Cancel</button>
+    </div>
+  </div>
+</div>

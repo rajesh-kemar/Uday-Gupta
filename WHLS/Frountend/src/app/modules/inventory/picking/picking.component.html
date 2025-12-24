@@ -1,0 +1,67 @@
+<div class="picking-container enhanced-theme">
+  <h2>Picking for Shipment #{{ shipmentId }}</h2>
+  <p>Status: <strong>{{ shipmentStatus }}</strong></p>
+
+  <div *ngIf="loadingTable" class="loading-msg">Loading picked products...</div>
+
+  <div *ngIf="!loadingTable && pickingList.length" class="picked-list">
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Warehouse</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let p of pickingList">
+          <td>{{ p.productName }}</td>
+          <td>{{ p.warehouseName }}</td>
+          <td>{{ p.pickedQuantity }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3>Add Pick</h3>
+  <div class="pick-form">
+    <!-- Product Dropdown -->
+    <div class="form-group">
+      <label>Product</label>
+      <select [(ngModel)]="selectedProductId" (ngModelChange)="onProductChange($event)" [disabled]="loadingProducts">
+        <option [ngValue]="null">Select Product</option>
+        <option *ngFor="let p of products" [ngValue]="p.productId">{{ p.productName }}</option>
+      </select>
+    </div>
+
+    <!-- Warehouse Cards -->
+    <div class="warehouse-cards" *ngIf="warehouses.length > 0">
+      <label>Warehouses</label>
+      <div class="cards-container">
+        <div 
+          class="card" 
+          *ngFor="let w of warehouses" 
+          [class.selected]="selectedWarehouse?.warehouseId === w.warehouseId"
+          (click)="onWarehouseChange(w)">
+          <h4>{{ w.warehouseName }}</h4>
+          <p>Available: {{ w.quantity }}</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quantity Input -->
+    <div class="form-group" *ngIf="selectedWarehouse">
+      <label>Quantity</label>
+      <input type="number" [(ngModel)]="picking.pickedQuantity" [max]="availableQuantity" min="1"/>
+      <p class="available-msg">Available Quantity: {{ availableQuantity }}</p>
+    </div>
+
+    <button class="primary" (click)="submitPick()" [disabled]="loading">
+      {{ loading ? 'Picking...' : 'Submit Pick' }}
+    </button>
+  </div>
+
+  <div class="back-button">
+    <a routerLink="/shipments">← Back</a>
+  </div>
+</div>

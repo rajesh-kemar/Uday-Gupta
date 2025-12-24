@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kemar.WHL.API", "kemar.WHL.API\kemar.WHL.API.csproj", "{8A846CBE-AF4C-4FB9-A2E4-31C573200878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kemar.WHL.Model", "kemar.WHL.Model\kemar.WHL.Model.csproj", "{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kemar.WHL.Business", "Kemar.WHL.Business\Kemar.WHL.Business.csproj", "{53DDF21E-3301-448D-AC16-9E41A5F70146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kemar.WHL.Repository", "Kemar.WHL.Repository\Kemar.WHL.Repository.csproj", "{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A846CBE-AF4C-4FB9-A2E4-31C573200878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A846CBE-AF4C-4FB9-A2E4-31C573200878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A846CBE-AF4C-4FB9-A2E4-31C573200878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A846CBE-AF4C-4FB9-A2E4-31C573200878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53DDF21E-3301-448D-AC16-9E41A5F70146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DDF21E-3301-448D-AC16-9E41A5F70146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DDF21E-3301-448D-AC16-9E41A5F70146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DDF21E-3301-448D-AC16-9E41A5F70146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F5FC287-649B-483B-AD25-FA5672393969}
+	EndGlobalSection
+EndGlobal

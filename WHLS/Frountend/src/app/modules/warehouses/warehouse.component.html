@@ -1,0 +1,93 @@
+<app-navbar [userName]="userName" [roles]="roles"></app-navbar>
+
+<div class="container">
+  <div class="header">
+    <h2>Warehouses</h2>
+    <div class="actions">
+      <select class="filter-dropdown" [(ngModel)]="searchBy">
+        <option value="name">Name</option>
+        <option value="location">Location</option>
+      </select>
+
+      <input
+        type="text"
+        placeholder="Search..."
+        class="search-box"
+        [(ngModel)]="searchText"
+        (input)="searchWarehouses()"
+      >
+
+      <button class="add-btn" (click)="openAdd()">+ Add Warehouse</button>
+    </div>
+  </div>
+
+  <div *ngIf="loadingWarehouses">Loading warehouses...</div>
+
+  <table *ngIf="!loadingWarehouses && warehouses.length">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Capacity</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let w of warehouses; let i = index">
+        <td>{{ (page-1)*pageSize + i + 1 }}</td>
+        <td>{{ w.name }}</td>
+        <td>{{ w.location }}</td>
+        <td>{{ w.capacity }}</td>
+        <td>
+          <button (click)="editWarehouse(w)">Edit</button>
+          <button class="danger" (click)="deleteWarehouse(w.warehouseId)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="!loadingWarehouses && !warehouses.length">No warehouses found</p>
+
+  <!-- Pagination -->
+  <div class="pagination" *ngIf="warehouses.length">
+    <button class="page-btn" (click)="prevPage()">Prev</button>
+    <ng-container *ngFor="let p of totalPages">
+      <span
+        class="page-number"
+        [ngClass]="{'active-page': page === p}"
+        (click)="page = p; applyPagination()"
+      >
+        {{ p }}
+      </span>
+    </ng-container>
+    <button class="page-btn" (click)="nextPage()">Next</button>
+
+    <select class="page-size" [(ngModel)]="pageSize" (change)="changePageSize()">
+      <option *ngFor="let s of pageSizeOptions" [value]="s">{{ s }}</option>
+    </select>
+  </div>
+</div>
+
+<!-- ADD/EDIT MODAL -->
+<div class="modal-backdrop" *ngIf="showAddForm">
+  <div class="modal">
+    <h3>{{ isEditMode ? 'Edit Warehouse' : 'Add Warehouse' }}</h3>
+
+    <label>Name</label>
+    <input [(ngModel)]="warehouse.name" placeholder="Name">
+
+    <label>Location</label>
+    <input [(ngModel)]="warehouse.location" placeholder="Location">
+
+    <label>Capacity</label>
+    <input type="number" [(ngModel)]="warehouse.capacity" placeholder="Capacity">
+
+    <div class="modal-actions">
+      <button class="save-btn" (click)="submitForm()" [disabled]="isSubmitting">
+        {{ isSubmitting ? 'Saving...' : 'Save' }}
+      </button>
+      <button class="cancel" (click)="closeForm()">Cancel</button>
+    </div>
+  </div>
+</div>

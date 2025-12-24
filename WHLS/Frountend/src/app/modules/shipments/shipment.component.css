@@ -1,0 +1,152 @@
+.container {
+  padding: 22px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-dropdown,
+.search-box {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  height: 36px;
+}
+
+.search-box {
+  width: 220px;
+}
+
+.filter-dropdown:focus,
+.search-box:focus {
+  outline: none;
+  border-color: #1976d2;
+  box-shadow: 0 0 4px rgba(25, 118, 210, 0.5);
+}
+
+.add-btn {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 0 16px;
+  border-radius: 6px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: #1565c0;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background: #f5f5f5;
+}
+
+/* STATUS */
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.status.created {
+  background: #1976d2;
+}
+
+.status.picked {
+  background: #f57c00;
+}
+
+.status.shipped {
+  background: #2e7d32;
+}
+
+/* ACTIONS */
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+button {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.danger {
+  background: #ff4d4f;
+  color: white;
+}
+
+.pick-btn {
+  background: #f57c00;
+  color: white;
+}
+
+/* PAGINATION */
+.pagination {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.page-btn {
+  background: #1976d2;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.page-number {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.active-page {
+  background: #1976d2;
+  color: white;
+  border-color: #1976d2;
+}
+
+.page-size {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}

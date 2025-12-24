@@ -1,0 +1,17 @@
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\bin\Debug\net8.0\Kemar.WHL.Business.deps.json
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\bin\Debug\net8.0\Kemar.WHL.Business.dll
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\bin\Debug\net8.0\Kemar.WHL.Business.pdb
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\bin\Debug\net8.0\kemar.WHL.Model.dll
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\bin\Debug\net8.0\Kemar.WHL.Repository.dll
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\bin\Debug\net8.0\Kemar.WHL.Repository.pdb
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\bin\Debug\net8.0\kemar.WHL.Model.pdb
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\obj\Debug\net8.0\Kemar.WHL.Business.csproj.AssemblyReference.cache
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\obj\Debug\net8.0\Kemar.WHL.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\obj\Debug\net8.0\Kemar.WHL.Business.AssemblyInfoInputs.cache
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\obj\Debug\net8.0\Kemar.WHL.Business.AssemblyInfo.cs
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\obj\Debug\net8.0\Kemar.WHL.Business.csproj.CoreCompileInputs.cache
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\obj\Debug\net8.0\Kemar.WH.C11FF504.Up2Date
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\obj\Debug\net8.0\Kemar.WHL.Business.dll
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\obj\Debug\net8.0\refint\Kemar.WHL.Business.dll
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\obj\Debug\net8.0\Kemar.WHL.Business.pdb
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Business\obj\Debug\net8.0\ref\Kemar.WHL.Business.dll

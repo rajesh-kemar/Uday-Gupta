@@ -1,0 +1,35 @@
+.container { padding: 22px; }
+
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.header input, .filter-dropdown { padding: 6px 10px; margin-right: 10px; border-radius: 4px; border: 1px solid #ccc; }
+
+.add-btn { background: #1976d2; color: white; border: none; padding: 8px 14px; border-radius: 6px; cursor: pointer; }
+.add-btn:hover { background: #1565c0; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+th { background: #f5f5f5; }
+
+button { padding: 6px 10px; border-radius: 4px; border: none; cursor: pointer; }
+button:hover { opacity: 0.9; }
+
+.danger { background: #ff4d4f; color: white; margin-left: 6px; }
+.danger:hover { background: #e53935; }
+
+p { margin-top: 20px; font-style: italic; }
+
+.pagination { margin-top: 15px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.page-btn, .page-number { padding: 6px 12px; border-radius: 6px; border: 1px solid #ccc; cursor: pointer; }
+.page-btn:hover, .page-number:hover { background: #f5f5f5; }
+.active-page { background: #1976d2; color: white; border: 1px solid #1976d2; }
+.page-size { padding: 6px 10px; border-radius: 6px; border: 1px solid #ccc; cursor: pointer; }
+
+.modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; z-index: 1000; }
+.modal { background: white; width: 400px; padding: 20px; border-radius: 8px; box-shadow: 0px 2px 10px rgba(0,0,0,0.3); }
+.modal input { width: 100%; padding: 8px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #ccc; box-sizing: border-box; }
+.modal-actions { display: flex; justify-content: flex-end; gap: 8px; }
+.save-btn { background: #1976d2; color: white; padding: 8px 14px; border-radius: 6px; cursor: pointer; border: none; }
+.save-btn:hover { background: #1565c0; }
+.cancel { background: #ccc; padding: 8px 14px; border-radius: 6px; cursor: pointer; border: none; }
+.cancel:hover { background: #999; }
+.error { color: red; font-size: 13px; margin-top: 5px; }

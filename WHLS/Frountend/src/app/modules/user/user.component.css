@@ -1,0 +1,227 @@
+.dashboard-container {
+  padding: 22px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filters input,
+.filters select {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-btn {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background: #f5f5f5;
+}
+
+.danger {
+  background: #e53935;
+  color: white;
+  margin-left: 6px;
+}
+
+.pagination {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.no-users {
+  margin-top: 15px;
+  font-style: italic;
+}
+
+/* MODAL */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 8px;
+}
+
+.modal input, .modal select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.save-btn {
+  background: #1976d2;
+  color: white;
+}
+
+.cancel {
+  background: #ccc;
+}
+
+/* --- Reuse product/warehouse CSS --- */
+
+.container { padding: 22px; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.header input {
+  padding: 6px 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-btn {
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.add-btn:hover { background: #1565c0; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+th { background: #f5f5f5; }
+
+button {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+button:hover { opacity: 0.9; }
+
+.danger {
+  background: #ff4d4f;
+  color: white;
+  margin-left: 6px;
+}
+.danger:hover { background: #e53935; }
+
+p { margin-top: 20px; font-style: italic; }
+
+.pagination {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* MODAL */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.3);
+}
+
+.modal input,
+.modal select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.save-btn {
+  background: #1976d2;
+  color: white;
+}
+.save-btn:hover { background: #1565c0; }
+
+.cancel {
+  background: #ccc;
+}
+.cancel:hover { background: #999; }
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper .toggle {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #1976d2;
+}

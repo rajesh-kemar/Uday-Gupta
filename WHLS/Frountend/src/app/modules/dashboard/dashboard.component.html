@@ -1,0 +1,36 @@
+<app-navbar [userName]="userName" [roles]="roles"></app-navbar>
+
+<div class="dashboard-container">
+  <div *ngIf="!pageReady" class="loading">Loading dashboard...</div>
+
+  <div class="stats" *ngIf="pageReady">
+    <div class="card" style="background:#4f46e5; color:white;">
+      <h3>Total Products</h3>
+      <p>{{ totalProducts }}</p>
+    </div>
+    <div class="card" style="background:#6366f1; color:white;">
+      <h3>Total Vehicles</h3>
+      <p>{{ totalVehicles }}</p>
+    </div>
+    <div class="card" style="background:#818cf8; color:white;">
+      <h3>Total Warehouses</h3>
+      <p>{{ totalWarehouses }}</p>
+    </div>
+    <div class="card" style="background:#a5b4fc; color:#1e1e2f;">
+      <h3>Total Inventories</h3>
+      <p>{{ totalInventories }}</p>
+    </div>
+    <div class="card" style="background:#4338ca; color:white;">
+      <h3>Total Shipments</h3>
+      <p>{{ totalShipments }}</p>
+    </div>
+    <div class="card" style="background:#6366f1; color:white;">
+      <h3>Total Distances</h3>
+      <p>{{ totalDistances }}</p>
+    </div>
+    <div class="card" style="background:#4f46e5; color:white;">
+      <h3>Total Users</h3>
+      <p>{{ totalUsers }}</p>
+    </div>
+  </div>
+</div>

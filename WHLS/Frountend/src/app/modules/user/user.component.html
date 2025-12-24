@@ -1,0 +1,85 @@
+<app-navbar [userName]="userName" [roles]="rolesFromToken"></app-navbar>
+
+<div class="container">
+
+  <div class="header">
+    <h2>Users</h2>
+    <div>
+      <input placeholder="Search by username / email / role"
+             [(ngModel)]="searchText"
+             (input)="searchUsers()">
+      <button class="add-btn" (click)="openAdd()">+ Add User</button>
+    </div>
+  </div>
+
+  <div *ngIf="loadingUsers">Loading...</div>
+
+  <table *ngIf="!loadingUsers && users.length">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Role</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let u of users; let i = index">
+        <td>{{ (page - 1) * pageSize + i + 1 }}</td>
+        <td>{{ u.username }}</td>
+        <td>{{ u.email }}</td>
+        <td>{{ u.role }}</td>
+        <td>
+          <button (click)="editUser(u)">Edit</button>
+          <button class="danger" (click)="deleteUser(u.userId)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="!loadingUsers && !users.length">No users found</p>
+
+  <div class="pagination">
+    <button (click)="prevPage()">Prev</button>
+    <span>Page {{ page }}</span>
+    <button (click)="nextPage()">Next</button>
+
+    <select [(ngModel)]="pageSize" (change)="changePageSize()">
+      <option *ngFor="let s of pageSizeOptions" [value]="s">{{ s }}</option>
+    </select>
+  </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-backdrop" *ngIf="showAddForm">
+  <div class="modal">
+    <h3>{{ isEditMode ? 'Edit User' : 'Add User' }}</h3>
+
+    <input [(ngModel)]="user.username" placeholder="Username">
+    <input [(ngModel)]="user.email" placeholder="Email">
+
+    <div class="password-wrapper">
+      <input [type]="showPassword ? 'text' : 'password'"
+             [(ngModel)]="user.password"
+             placeholder="{{ isEditMode ? 'New password (optional)' : 'Password' }}">
+      <button type="button" class="toggle" (click)="showPassword = !showPassword">
+        {{ showPassword ? 'Hide' : 'Show' }}
+      </button>
+    </div>
+
+    <select [(ngModel)]="user.role">
+      <option value="">Select Role</option>
+      <option *ngFor="let r of roles" [value]="r">{{ r }}</option>
+    </select>
+
+    <p *ngIf="formMessage">{{ formMessage }}</p>
+
+    <div class="modal-actions">
+      <button class="save-btn" (click)="submitForm()" [disabled]="isSubmitting">
+        {{ isSubmitting ? 'Saving…' : 'Save' }}
+      </button>
+      <button class="cancel" (click)="closeForm()">Cancel</button>
+    </div>
+  </div>
+</div>

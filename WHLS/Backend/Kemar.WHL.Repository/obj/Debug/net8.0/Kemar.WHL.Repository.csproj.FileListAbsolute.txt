@@ -1,0 +1,17 @@
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\bin\Debug\net8.0\Kemar.WHL.Repository.deps.json
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\bin\Debug\net8.0\Kemar.WHL.Repository.runtimeconfig.json
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\bin\Debug\net8.0\Kemar.WHL.Repository.dll
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\bin\Debug\net8.0\Kemar.WHL.Repository.pdb
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\bin\Debug\net8.0\kemar.WHL.Model.dll
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\bin\Debug\net8.0\kemar.WHL.Model.pdb
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\obj\Debug\net8.0\Kemar.WHL.Repository.csproj.AssemblyReference.cache
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\obj\Debug\net8.0\Kemar.WHL.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\obj\Debug\net8.0\Kemar.WHL.Repository.AssemblyInfoInputs.cache
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\obj\Debug\net8.0\Kemar.WHL.Repository.AssemblyInfo.cs
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\obj\Debug\net8.0\Kemar.WHL.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\obj\Debug\net8.0\Kemar.WH.2B774E34.Up2Date
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\obj\Debug\net8.0\Kemar.WHL.Repository.dll
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\obj\Debug\net8.0\refint\Kemar.WHL.Repository.dll
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\obj\Debug\net8.0\Kemar.WHL.Repository.pdb
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\obj\Debug\net8.0\Kemar.WHL.Repository.genruntimeconfig.cache
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\Kemar.WHL.Repository\obj\Debug\net8.0\ref\Kemar.WHL.Repository.dll

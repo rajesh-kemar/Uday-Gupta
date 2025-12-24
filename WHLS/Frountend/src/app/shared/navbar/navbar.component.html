@@ -1,0 +1,42 @@
+<nav class="navbar">
+
+  <!-- LEFT -->
+  <div class="nav-left">
+    <span class="welcome">Welcome, <strong>{{ userName }}</strong></span>
+    <span class="role" *ngIf="roleText">({{ roleText }})</span>
+  </div>
+
+  <!-- CENTER MENU -->
+  <ul class="nav-center">
+  <li (click)="goTo('dashboard')">Dashboard</li>
+<li (click)="goTo('products')">Products</li>
+<li (click)="goTo('vehicles')">Vehicles</li>
+<li (click)="goTo('warehouses')">Warehouses</li>
+<li (click)="goTo('inventories')">Inventories</li>
+<li (click)="goTo('shipments')">Shipments</li>
+<li (click)="goTo('distances')">Distances</li>
+<li (click)="goTo('users')">Users</li>
+  </ul>
+
+  <!-- RIGHT: Profile dropdown -->
+  <div class="nav-right">
+    <div class="profile" (click)="toggleDropdown()">Profile ▼</div>
+    <ul class="dropdown" *ngIf="showDropdown">
+      <li (click)="changePassword()">Change Password</li>
+      <li (click)="forgotPassword()">Forgot Password</li>
+      <li (click)="confirmLogout()">Logout</li>
+    </ul>
+  </div>
+</nav>
+
+<!-- LOGOUT CONFIRM MODAL -->
+<div class="modal-backdrop" *ngIf="showLogoutConfirm">
+  <div class="modal">
+    <h3>Confirm Logout</h3>
+    <p>Are you sure?</p>
+    <div class="modal-buttons">
+      <button class="yes" (click)="logout()">Yes</button>
+      <button class="no" (click)="showLogoutConfirm = false">No</button>
+    </div>
+  </div>
+</div>

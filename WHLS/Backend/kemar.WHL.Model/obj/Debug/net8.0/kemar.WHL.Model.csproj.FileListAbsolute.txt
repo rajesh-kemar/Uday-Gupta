@@ -1,0 +1,12 @@
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\kemar.WHL.Model\bin\Debug\net8.0\kemar.WHL.Model.deps.json
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\kemar.WHL.Model\bin\Debug\net8.0\kemar.WHL.Model.dll
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\kemar.WHL.Model\bin\Debug\net8.0\kemar.WHL.Model.pdb
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\kemar.WHL.Model\obj\Debug\net8.0\kemar.WHL.Model.csproj.AssemblyReference.cache
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\kemar.WHL.Model\obj\Debug\net8.0\kemar.WHL.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\kemar.WHL.Model\obj\Debug\net8.0\kemar.WHL.Model.AssemblyInfoInputs.cache
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\kemar.WHL.Model\obj\Debug\net8.0\kemar.WHL.Model.AssemblyInfo.cs
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\kemar.WHL.Model\obj\Debug\net8.0\kemar.WHL.Model.csproj.CoreCompileInputs.cache
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\kemar.WHL.Model\obj\Debug\net8.0\kemar.WHL.Model.dll
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\kemar.WHL.Model\obj\Debug\net8.0\refint\kemar.WHL.Model.dll
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\kemar.WHL.Model\obj\Debug\net8.0\kemar.WHL.Model.pdb
+C:\Users\Uday Gupta\OneDrive\Desktop\C#\Pra\kemar.WHL.API\kemar.WHL.Model\obj\Debug\net8.0\ref\kemar.WHL.Model.dll

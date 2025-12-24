@@ -1,0 +1,258 @@
+/* ===== PAGE CONTAINER ===== */
+.picking-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 28px 32px;
+  background: linear-gradient(135deg, #f0f4ff, #d9e4ff);
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  color: #0d0d0d;
+}
+
+/* ===== HEADINGS ===== */
+.picking-container h2 {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #0d47a1;
+}
+
+.picking-container h3 {
+  margin: 24px 0 16px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1565c0;
+}
+
+.picking-container strong {
+  padding: 6px 14px;
+  border-radius: 14px;
+  font-size: 13px;
+  text-transform: uppercase;
+  background: #1976d2;
+  color: #fff;
+}
+
+/* ===== LOADING & EMPTY STATES ===== */
+.loading-msg,
+.empty {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 22px;
+  border-radius: 12px;
+  font-size: 14px;
+  background: #e3f2fd;
+  color: #0d47a1;
+  font-weight: 500;
+}
+
+/* ===== PICKED PRODUCTS TABLE ===== */
+.picked-list {
+  margin-bottom: 28px;
+  overflow-x: auto;
+}
+
+.picked-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.picked-list thead {
+  background: #0d47a1;
+  color: #fff;
+}
+
+.picked-list th,
+.picked-list td {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.picked-list tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.picked-list tbody tr:last-child {
+  border-bottom: none;
+}
+
+.picked-list tbody tr:hover {
+  background: #e3f2fd;
+}
+
+/* ===== PICK FORM ===== */
+.pick-form {
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid #cfd8dc;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+/* ===== FORM GROUPS ===== */
+.pick-form .form-group {
+  margin-bottom: 18px;
+}
+
+.pick-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0d0d0d;
+}
+
+.pick-form input[type="text"],
+.pick-form select,
+.pick-form input[type="number"] {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid #90caf9;
+  font-size: 14px;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.pick-form input[type="text"]:focus,
+.pick-form select:focus,
+.pick-form input[type="number"]:focus {
+  outline: none;
+  border-color: #1565c0;
+  box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.2);
+}
+
+/* ===== PRODUCT SEARCH DROPDOWN ===== */
+.product-combo {
+  position: relative;
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  width: 100%;
+  max-height: 180px;
+  overflow-y: auto;
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 0 0 10px 10px;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.dropdown-list li {
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dropdown-list li:hover {
+  background: #e3f2fd;
+}
+
+/* ===== WAREHOUSE CARDS ===== */
+.warehouse-cards .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.warehouse-cards .card {
+  flex: 1 1 140px;
+  padding: 16px;
+  border-radius: 12px;
+  background: #f0f4ff;
+  border: 1px solid #90caf9;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.warehouse-cards .card:hover {
+  background: #e3f2fd;
+  border-color: #1565c0;
+}
+
+.warehouse-cards .card.selected {
+  background: #1565c0;
+  color: #fff;
+  border-color: #0d47a1;
+}
+
+/* ===== QUANTITY ===== */
+.available-msg {
+  font-size: 13px;
+  color: #1565c0;
+  margin-top: 4px;
+}
+
+/* ===== SUBMIT BUTTON ===== */
+button.primary {
+  margin-top: 14px;
+  width: 100%;
+  background: linear-gradient(135deg, #0d47a1, #1976d2);
+  color: #fff;
+  padding: 14px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+}
+
+button.primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #1565c0, #0d47a1);
+}
+
+button.primary:disabled {
+  background: #90caf9;
+  cursor: not-allowed;
+}
+
+/* ===== BACK BUTTON ===== */
+.back-button {
+  margin-top: 26px;
+  text-align: left;
+}
+
+.back-button a {
+  text-decoration: none;
+  color: #0d47a1;
+  font-weight: 500;
+}
+
+.back-button a:hover {
+  text-decoration: underline;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .warehouse-cards .cards-container {
+    flex-direction: column;
+  }
+}
+
+/* Remove product-combo & dropdown-list related CSS since we no longer need search */
+.pick-form select {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid #90caf9;
+  font-size: 14px;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.pick-form select:focus {
+  outline: none;
+  border-color: #1565c0;
+  box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.2);
+}

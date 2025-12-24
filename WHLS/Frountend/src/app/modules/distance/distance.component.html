@@ -1,0 +1,86 @@
+<app-navbar [userName]="userName" [roles]="roles"></app-navbar>
+
+<div class="container">
+  <div class="header">
+    <h2>Distances</h2>
+    <div class="actions">
+      <input
+        type="text"
+        placeholder="Search address / city / country"
+        [(ngModel)]="searchText"
+        (input)="searchDistances()"
+        class="search-box"
+      >
+      <button class="add-btn" (click)="openAdd()">+ Add Distance</button>
+    </div>
+  </div>
+
+  <div *ngIf="loadingDistances">Loading distances...</div>
+
+  <table *ngIf="!loadingDistances && distances.length">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>Country</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let d of distances; let i = index">
+        <td>{{ (page-1)*pageSize + i + 1 }}</td>
+        <td>{{ d.address }}</td>
+        <td>{{ d.city }}</td>
+        <td>{{ d.country }}</td>
+        <td>
+          <button (click)="editDistance(d)">Edit</button>
+          <button class="danger" (click)="deleteDistance(d.distanceId)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="!loadingDistances && !distances.length">No distances found</p>
+
+  <!-- Pagination -->
+  <div class="pagination" *ngIf="distances.length">
+    <button class="page-btn" (click)="prevPage()">Prev</button>
+    
+    <ng-container *ngFor="let p of totalPages">
+      <span
+        class="page-number"
+        [ngClass]="{'active-page': page === p}"
+        (click)="page = p; applyPagination()"
+      >
+        {{ p }}
+      </span>
+    </ng-container>
+
+    <button class="page-btn" (click)="nextPage()">Next</button>
+
+    <select class="page-size" [(ngModel)]="pageSize" (change)="changePageSize()">
+      <option *ngFor="let s of pageSizeOptions" [value]="s">{{ s }}</option>
+    </select>
+  </div>
+</div>
+
+<!-- Add/Edit Modal -->
+<div class="modal-backdrop" *ngIf="showAddForm">
+  <div class="modal">
+    <h3>{{ isEditMode ? 'Edit Distance' : 'Add Distance' }}</h3>
+
+    <input placeholder="Address" [(ngModel)]="distance.address">
+    <input placeholder="City" [(ngModel)]="distance.city">
+    <input placeholder="Country" [(ngModel)]="distance.country">
+
+    <div *ngIf="formError" class="error">{{ formMessage }}</div>
+
+    <div class="modal-actions">
+      <button class="save-btn" (click)="submitForm()" [disabled]="isSubmitting">
+        {{ isSubmitting ? 'Saving...' : 'Save' }}
+      </button>
+      <button class="cancel" (click)="closeForm()">Cancel</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,93 @@
+<app-navbar [userName]="userName" [roles]="roles"></app-navbar>
+
+<div class="container">
+  <h2>Shipments</h2>
+
+  <div class="header">
+    <select [(ngModel)]="searchBy" class="filter-dropdown">
+      <option value="shipmentNumber">Shipment No</option>
+      <option value="status">Status</option>
+      <option value="destination">Destination</option>
+    </select>
+
+    <input
+      type="text"
+      placeholder="Search..."
+      [(ngModel)]="searchText"
+      (input)="searchShipments()"
+      class="search-box"
+    />
+
+    <button *ngIf="isAdmin" (click)="openAdd()" class="add-btn">+ Add</button>
+  </div>
+
+  <!-- ✅ LOADING STATE -->
+  <div *ngIf="loadingShipments">Loading shipments...</div>
+
+  <!-- ✅ TABLE -->
+  <table *ngIf="!loadingShipments && pagedShipments.length">
+    <thead>
+      <tr>
+        <th>Shipment No</th>
+        <th>Date</th>
+        <th>Vehicle</th>
+        <th>Destination</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of pagedShipments">
+        <td>{{ s.shipmentNumber }}</td>
+        <td>{{ s.shipmentDate | date:'mediumDate' }}</td>
+        <td>{{ s.vehicleNumber }}</td>
+        <td>{{ s.destinationAddress }}</td>
+        <td>
+          <span class="status" [ngClass]="s.status.toLowerCase()">
+            {{ s.status }}
+          </span>
+        </td>
+        <td class="actions">
+          <button (click)="editShipment(s)">✏️</button>
+          <button *ngIf="isAdmin" (click)="deleteShipment(s.shipmentId)" class="danger">🗑️</button>
+
+          <button
+            *ngIf="s.status === 'CREATED' && (isAdmin || isWarehouse)"
+            class="pick-btn"
+            (click)="goToPicking(s.shipmentId)">
+            📦 Pick
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ✅ EMPTY STATE (ONLY AFTER LOAD) -->
+  <p *ngIf="!loadingShipments && !pagedShipments.length">
+    No shipments found.
+  </p>
+
+  <!-- PAGINATION -->
+  <div class="pagination" *ngIf="!loadingShipments && shipments.length > pageSize">
+    <button class="page-btn" (click)="prevPage()" [disabled]="page === 1">Prev</button>
+
+    <button
+      *ngFor="let p of pageNumbers"
+      class="page-number"
+      [class.active-page]="page === p"
+      (click)="page = p; applyPagination()">
+      {{ p }}
+    </button>
+
+    <button
+      class="page-btn"
+      (click)="nextPage()"
+      [disabled]="page * pageSize >= shipments.length">
+      Next
+    </button>
+
+    <select [(ngModel)]="pageSize" (change)="changePageSize()" class="page-size">
+      <option *ngFor="let s of pageSizeOptions" [value]="s">{{ s }}</option>
+    </select>
+  </div>
+</div>

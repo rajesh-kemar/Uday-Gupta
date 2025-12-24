@@ -1,0 +1,1767 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\controller\\pickingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\controller\\pickingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\controller\\distancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\controller\\distancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\controller\\shipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\controller\\shipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\repositories\\shipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\repositories\\shipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\services\\pickingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\services\\pickingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\entities\\picking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\entities\\picking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\response\\pickingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\response\\pickingresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\request\\pickingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\request\\pickingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\entities\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\entities\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\repositories\\pickingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\repositories\\pickingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\interfaces\\ipickingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\interfaces\\ipickingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\services\\shipmentservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\services\\shipmentservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\interfaces\\ishipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\interfaces\\ishipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\request\\shipmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\request\\shipmentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\interfaces\\ishipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\interfaces\\ishipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\response\\shipmentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\response\\shipmentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\filter\\shipmentfiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\filter\\shipmentfiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\controller\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\controller\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\context\\warehousedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\context\\warehousedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\migrations\\20251220061631_fixinventoryproductnavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\migrations\\20251220061631_fixinventoryproductnavigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\migrations\\20251220061653_fixinventoryproductnavigation1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\migrations\\20251220061653_fixinventoryproductnavigation1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\configurations\\inventoryconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\configurations\\inventoryconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\services\\inventoryservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\services\\inventoryservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\repositories\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\repositories\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\interfaces\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\interfaces\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\response\\inventoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\response\\inventoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\request\\inventoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\request\\inventoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\mapping\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\entities\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\entities\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\interfaces\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\interfaces\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251220043735_AddProductToPicking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Kemar.WHL.Repository\\Migrations\\20251220043735_AddProductToPicking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\interfaces\\ipickingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\interfaces\\ipickingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251219131321_addstatusinshipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Kemar.WHL.Repository\\Migrations\\20251219131321_addstatusinshipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251219125128_AddPicking1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Kemar.WHL.Repository\\Migrations\\20251219125128_AddPicking1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\migrations\\20251219124146_addpicking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\migrations\\20251219124146_addpicking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\request\\reduceinventoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\request\\reduceinventoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\request\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\request\\forgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251219114526_AddWarehouseIdToUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Kemar.WHL.Repository\\Migrations\\20251219114526_AddWarehouseIdToUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\filter\\inventoryfiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\filter\\inventoryfiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\controller\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\controller\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\controller\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\controller\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\controller\\usercontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\controller\\usercontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\filter\\distancefiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\filter\\distancefiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\filter\\warehousefiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\filter\\warehousefiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\filter\\vehiclefilterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\filter\\vehiclefilterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\request\\vehiclerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\request\\vehiclerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\common\\commonentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\common\\commonentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\request\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\request\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\response\\distanceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\response\\distanceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\request\\distancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\request\\distancerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\filter\\userfiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\filter\\userfiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\request\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\request\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\response\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\response\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\services\\vehicleservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\services\\vehicleservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\services\\warehouseservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\services\\warehouseservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\response\\warehouseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\response\\warehouseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\request\\warehouserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\request\\warehouserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\request\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\request\\changepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\services\\userservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\services\\userservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\common\\resultcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\common\\resultcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\middleware\\slidingexpirationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\middleware\\slidingexpirationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\repositories\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\repositories\\userrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\interfaces\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\services\\distanceservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\services\\distanceservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\interfaces\\idistanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\interfaces\\idistanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\repositories\\distancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\repositories\\distancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\interfaces\\idistancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\interfaces\\idistancerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\interfaces\\iwarehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\interfaces\\iwarehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\repositories\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\repositories\\warehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\interfaces\\iwarehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\interfaces\\iwarehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.business\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53DDF21E-3301-448D-AC16-9E41A5F70146}|Kemar.WHL.Business\\Kemar.WHL.Business.csproj|solutionrelative:kemar.whl.business\\interfaces\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\interfaces\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\interfaces\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\configurations\\warehouseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\configurations\\warehouseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\common\\commonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\common\\commonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\migrations\\20251208071305_adduserrolessystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\migrations\\20251208071305_adduserrolessystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\interfaces\\iuserrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\interfaces\\iuserrolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.model\\common\\resultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BEA7CA5-7A5E-4678-ACE9-1DE74A353317}|kemar.WHL.Model\\kemar.WHL.Model.csproj|solutionrelative:kemar.whl.model\\common\\resultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.api\\extensions\\repositoryregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A846CBE-AF4C-4FB9-A2E4-31C573200878}|kemar.WHL.API\\kemar.WHL.API.csproj|solutionrelative:kemar.whl.api\\extensions\\repositoryregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\configurations\\distanceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\configurations\\distanceconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\configurations\\shipmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\configurations\\shipmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\configurations\\vehicleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\configurations\\vehicleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\configurations\\productconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\configurations\\productconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|c:\\users\\uday gupta\\onedrive\\desktop\\c#\\pra\\kemar.whl.api\\kemar.whl.repository\\migrations\\20251210100215_addlastactivitytimetouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{683AEFB9-3BCB-4383-BB74-5C2A8C1BD9BE}|Kemar.WHL.Repository\\Kemar.WHL.Repository.csproj|solutionrelative:kemar.whl.repository\\migrations\\20251210100215_addlastactivitytimetouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PickingController.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\PickingController.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Controller\\PickingController.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\PickingController.cs",
+              "RelativeToolTip": "kemar.WHL.API\\Controller\\PickingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:57:06.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShipmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\ShipmentRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Repositories\\ShipmentRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\ShipmentRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Repositories\\ShipmentRepository.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAUwFgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:51:57.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PickingService.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\PickingService.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Services\\PickingService.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\PickingService.cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Services\\PickingService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:56:38.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Picking.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Picking.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Entities\\Picking.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Picking.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Entities\\Picking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:40:45.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PickingResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Response\\PickingResponse.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Response\\PickingResponse.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Response\\PickingResponse.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Response\\PickingResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:54:35.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PickingRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\PickingRequest.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Request\\PickingRequest.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\PickingRequest.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Request\\PickingRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:54:12.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DistanceController.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\DistanceController.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Controller\\DistanceController.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\DistanceController.cs",
+              "RelativeToolTip": "kemar.WHL.API\\Controller\\DistanceController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA8wDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:09:47.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Controller\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\AuthController.cs",
+              "RelativeToolTip": "kemar.WHL.API\\Controller\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T09:04:48.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\ProductController.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Controller\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\ProductController.cs",
+              "RelativeToolTip": "kemar.WHL.API\\Controller\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T09:10:49.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShipmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\ShipmentController.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Controller\\ShipmentController.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\ShipmentController.cs",
+              "RelativeToolTip": "kemar.WHL.API\\Controller\\ShipmentController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwC4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:52:29.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PickingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\PickingRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Repositories\\PickingRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\PickingRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Repositories\\PickingRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswCIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:55:38.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IPickingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IPickingRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Interfaces\\IPickingRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IPickingRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Interfaces\\IPickingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:55:18.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Shipment.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Shipment.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Entities\\Shipment.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Shipment.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Entities\\Shipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:51:29.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShipmentService .cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\ShipmentService .cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Services\\ShipmentService .cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\ShipmentService .cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Services\\ShipmentService .cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwC4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:54:05.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ShipmentRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\ShipmentRequest.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Request\\ShipmentRequest.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\ShipmentRequest.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Request\\ShipmentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:52:20.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IShipmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IShipmentRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Interfaces\\IShipmentRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IShipmentRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Interfaces\\IShipmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:51:49.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\User.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:28:45.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ShipmentResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Response\\ShipmentResponse.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Response\\ShipmentResponse.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Response\\ShipmentResponse.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Response\\ShipmentResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T04:43:23.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IShipmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IShipmentService.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Interfaces\\IShipmentService.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IShipmentService.cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Interfaces\\IShipmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:56:03.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T07:30:20.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ShipmentFilterModel.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Filter\\ShipmentFilterModel.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Filter\\ShipmentFilterModel.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Filter\\ShipmentFilterModel.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Filter\\ShipmentFilterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T04:42:56.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\ProductService.cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Services\\ProductService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwD0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T09:54:03.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T10:18:32.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\InventoryController.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Controller\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\InventoryController.cs",
+              "RelativeToolTip": "kemar.WHL.API\\Controller\\InventoryController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvyMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:57:39.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "WarehouseDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Context\\WarehouseDbContext.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Context\\WarehouseDbContext.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Context\\WarehouseDbContext.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Context\\WarehouseDbContext.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T06:11:12.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20251220061631_FixInventoryProductNavigation.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251220061631_FixInventoryProductNavigation.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Migrations\\20251220061631_FixInventoryProductNavigation.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251220061631_FixInventoryProductNavigation.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Migrations\\20251220061631_FixInventoryProductNavigation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T06:16:31.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20251220061653_FixInventoryProductNavigation1.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251220061653_FixInventoryProductNavigation1.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Migrations\\20251220061653_FixInventoryProductNavigation1.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251220061653_FixInventoryProductNavigation1.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Migrations\\20251220061653_FixInventoryProductNavigation1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T06:16:53.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "InventoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\InventoryRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Repositories\\InventoryRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\InventoryRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Repositories\\InventoryRepository.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAADwv1QAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:57:06.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "InventoryService .cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\InventoryService .cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Services\\InventoryService .cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\InventoryService .cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Services\\InventoryService .cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:58:47.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "InventoryConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\InventoryConfig.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Configurations\\InventoryConfig.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\InventoryConfig.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Configurations\\InventoryConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:56:50.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IInventoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IInventoryRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Interfaces\\IInventoryRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IInventoryRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Interfaces\\IInventoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:39:57.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "InventoryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Response\\InventoryResponse.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Response\\InventoryResponse.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Response\\InventoryResponse.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Response\\InventoryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T06:06:02.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "InventoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\InventoryRequest.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Request\\InventoryRequest.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\InventoryRequest.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Request\\InventoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:57:30.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Mapping\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Mapping\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Mapping\\AutoMapperProfile.cs",
+              "RelativeToolTip": "kemar.WHL.API\\Mapping\\AutoMapperProfile.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T10:07:22.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Inventory.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Entities\\Inventory.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Inventory.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Entities\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T06:41:35.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IInventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IInventoryService.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Interfaces\\IInventoryService.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IInventoryService.cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Interfaces\\IInventoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:58:15.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20251220043735_AddProductToPicking.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251220043735_AddProductToPicking.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Migrations\\20251220043735_AddProductToPicking.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251220043735_AddProductToPicking.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Migrations\\20251220043735_AddProductToPicking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T04:37:35.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T12:48:57.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IPickingService.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IPickingService.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Interfaces\\IPickingService.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IPickingService.cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Interfaces\\IPickingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:56:08.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20251219131321_addstatusinshipment.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251219131321_addstatusinshipment.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Migrations\\20251219131321_addstatusinshipment.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251219131321_addstatusinshipment.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Migrations\\20251219131321_addstatusinshipment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:13:21.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Program.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Program.cs",
+              "RelativeToolTip": "kemar.WHL.API\\Program.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAADwv10AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:17:34.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20251219125128_AddPicking1.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251219125128_AddPicking1.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Migrations\\20251219125128_AddPicking1.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251219125128_AddPicking1.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Migrations\\20251219125128_AddPicking1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:51:28.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20251219124146_AddPicking.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251219124146_AddPicking.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Migrations\\20251219124146_AddPicking.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251219124146_AddPicking.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Migrations\\20251219124146_AddPicking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:41:46.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:29:06.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:29:19.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20251219114526_AddWarehouseIdToUser.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251219114526_AddWarehouseIdToUser.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Migrations\\20251219114526_AddWarehouseIdToUser.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251219114526_AddWarehouseIdToUser.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Migrations\\20251219114526_AddWarehouseIdToUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T11:45:27.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ForgotPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\ForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Request\\ForgotPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\ForgotPasswordRequest.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Request\\ForgotPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T07:24:12.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ReduceInventoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\ReduceInventoryRequest.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Request\\ReduceInventoryRequest.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\ReduceInventoryRequest.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Request\\ReduceInventoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T11:23:12.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "InventoryFilterModel.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Filter\\InventoryFilterModel.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Filter\\InventoryFilterModel.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Filter\\InventoryFilterModel.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Filter\\InventoryFilterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:39:25.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "WarehouseController.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\WarehouseController.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Controller\\WarehouseController.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\WarehouseController.cs",
+              "RelativeToolTip": "kemar.WHL.API\\Controller\\WarehouseController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwDgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:03:49.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\VehicleController.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Controller\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\VehicleController.cs",
+              "RelativeToolTip": "kemar.WHL.API\\Controller\\VehicleController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAuwDMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:14:51.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UserController .cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\UserController .cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Controller\\UserController .cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Controller\\UserController .cs",
+              "RelativeToolTip": "kemar.WHL.API\\Controller\\UserController .cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAwEAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:31:34.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DistanceFilterModel.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Filter\\DistanceFilterModel.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Filter\\DistanceFilterModel.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Filter\\DistanceFilterModel.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Filter\\DistanceFilterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:54:22.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "VehicleRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\VehicleRequest.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Request\\VehicleRequest.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\VehicleRequest.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Request\\VehicleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:14:29.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "WarehouseFilterModel.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Filter\\WarehouseFilterModel.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Filter\\WarehouseFilterModel.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Filter\\WarehouseFilterModel.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Filter\\WarehouseFilterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T10:38:58.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "VehicleFilterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Filter\\VehicleFilterRequest.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Filter\\VehicleFilterRequest.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Filter\\VehicleFilterRequest.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Filter\\VehicleFilterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T10:09:14.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Vehicle.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Entities\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Vehicle.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Entities\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:12:58.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CommonEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Common\\CommonEntity.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Common\\CommonEntity.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Common\\CommonEntity.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Common\\CommonEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:31:32.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ProductRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\ProductRequest.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Request\\ProductRequest.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\ProductRequest.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Request\\ProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T10:02:46.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "UserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\UserRequest.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Request\\UserRequest.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\UserRequest.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Request\\UserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:29:35.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Response\\UserResponse.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Response\\UserResponse.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Response\\UserResponse.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Response\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T12:53:38.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "UserFilterModel.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Filter\\UserFilterModel.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Filter\\UserFilterModel.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Filter\\UserFilterModel.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Filter\\UserFilterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T04:38:50.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "DistanceRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\DistanceRequest.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Request\\DistanceRequest.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\DistanceRequest.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Request\\DistanceRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:09:28.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "DistanceResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Response\\DistanceResponse.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Response\\DistanceResponse.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Response\\DistanceResponse.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Response\\DistanceResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:02:40.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Base\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Entities\\Base\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Base\\BaseEntity.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Entities\\Base\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T12:25:35.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "VehicleService .cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\VehicleService .cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Services\\VehicleService .cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\VehicleService .cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Services\\VehicleService .cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAmwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:16:52.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "WarehouseService .cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\WarehouseService .cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Services\\WarehouseService .cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\WarehouseService .cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Services\\WarehouseService .cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwEcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:44:01.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "WarehouseResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Response\\WarehouseResponse.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Response\\WarehouseResponse.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Response\\WarehouseResponse.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Response\\WarehouseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:29:26.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "WarehouseRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\WarehouseRequest.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Request\\WarehouseRequest.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\WarehouseRequest.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Request\\WarehouseRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T04:35:58.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ChangePasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\ChangePasswordRequest.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Request\\ChangePasswordRequest.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\ChangePasswordRequest.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Request\\ChangePasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:53:11.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Request\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Request\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T06:47:50.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Product.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T06:07:53.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\appsettings.json",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\appsettings.json",
+              "RelativeToolTip": "kemar.WHL.API\\appsettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-05T09:02:16.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\appsettings.Development.json",
+              "RelativeToolTip": "kemar.WHL.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-05T07:42:43.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "kemar.WHL.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-11T04:27:14.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "UserService .cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\UserService .cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Services\\UserService .cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\UserService .cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Services\\UserService .cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:30:35.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\UserRole.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Entities\\UserRole.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\UserRole.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Entities\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T06:10:25.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Entities\\Role.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T06:10:06.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ResultCode.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Common\\ResultCode.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Common\\ResultCode.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Common\\ResultCode.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Common\\ResultCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:40:42.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "SlidingExpirationMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Middleware\\SlidingExpirationMiddleware.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Middleware\\SlidingExpirationMiddleware.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Middleware\\SlidingExpirationMiddleware.cs",
+              "RelativeToolTip": "kemar.WHL.API\\Middleware\\SlidingExpirationMiddleware.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:03:57.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\TokenService.cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Services\\TokenService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T09:04:00.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "UserRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\UserRoleRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Repositories\\UserRoleRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\UserRoleRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Repositories\\UserRoleRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA6wC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T07:11:00.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:30:18.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Interfaces\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\ITokenService.cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Interfaces\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T07:03:32.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "20251210100215_AddLastActivityTimeToUser.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251210100215_AddLastActivityTimeToUser.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Migrations\\20251210100215_AddLastActivityTimeToUser.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251210100215_AddLastActivityTimeToUser.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Migrations\\20251210100215_AddLastActivityTimeToUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:02:15.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Settings\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Settings\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Settings\\JwtSettings.cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Settings\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:22:29.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "WarehouseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\WarehouseRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Repositories\\WarehouseRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\WarehouseRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Repositories\\WarehouseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T11:18:34.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "IWarehouseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IWarehouseRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Interfaces\\IWarehouseRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IWarehouseRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Interfaces\\IWarehouseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:06:50.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "IDistanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IDistanceRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Interfaces\\IDistanceRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IDistanceRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Interfaces\\IDistanceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:48:39.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "DistanceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\DistanceRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Repositories\\DistanceRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\DistanceRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Repositories\\DistanceRepository.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAiwGIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T09:48:48.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "IDistanceService.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IDistanceService.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Interfaces\\IDistanceService.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IDistanceService.cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Interfaces\\IDistanceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:11:20.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "DistanceService .cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\DistanceService .cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Services\\DistanceService .cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Services\\DistanceService .cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Services\\DistanceService .cs",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvz4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:10:35.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "IWarehouseService.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IWarehouseService.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Interfaces\\IWarehouseService.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IWarehouseService.cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Interfaces\\IWarehouseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:08:37.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "VehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\VehicleRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Repositories\\VehicleRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\VehicleRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Repositories\\VehicleRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:14:05.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "IVehicleService.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IVehicleService.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Business\\Interfaces\\IVehicleService.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Business\\Interfaces\\IVehicleService.cs",
+              "RelativeToolTip": "Kemar.WHL.Business\\Interfaces\\IVehicleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:20:20.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "IVehicleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IVehicleRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Interfaces\\IVehicleRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IVehicleRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Interfaces\\IVehicleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:12:38.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "WarehouseConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\WarehouseConfig.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Configurations\\WarehouseConfig.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\WarehouseConfig.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Configurations\\WarehouseConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T07:12:23.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T06:31:12.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "CommonHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Common\\CommonHelper.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Common\\CommonHelper.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Common\\CommonHelper.cs",
+              "RelativeToolTip": "kemar.WHL.API\\Common\\CommonHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:29:42.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "20251208071305_AddUserRolesSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251208071305_AddUserRolesSystem.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Migrations\\20251208071305_AddUserRolesSystem.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Migrations\\20251208071305_AddUserRolesSystem.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Migrations\\20251208071305_AddUserRolesSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T07:13:05.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "IUserRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IUserRoleRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Interfaces\\IUserRoleRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IUserRoleRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Interfaces\\IUserRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T06:12:17.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T06:11:48.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "ResultModel.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Common\\ResultModel.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.Model\\Common\\ResultModel.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.Model\\Common\\ResultModel.cs",
+              "RelativeToolTip": "kemar.WHL.Model\\Common\\ResultModel.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwDsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:40:55.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:28:58.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "RepositoryRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Extensions\\RepositoryRegistration.cs",
+              "RelativeDocumentMoniker": "kemar.WHL.API\\Extensions\\RepositoryRegistration.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\kemar.WHL.API\\Extensions\\RepositoryRegistration.cs",
+              "RelativeToolTip": "kemar.WHL.API\\Extensions\\RepositoryRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:03:05.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "DistanceConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\DistanceConfig.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Configurations\\DistanceConfig.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\DistanceConfig.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Configurations\\DistanceConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T09:09:01.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "ShipmentConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\ShipmentConfig.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Configurations\\ShipmentConfig.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\ShipmentConfig.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Configurations\\ShipmentConfig.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T08:51:38.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "VehicleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\VehicleConfig.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Configurations\\VehicleConfig.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\VehicleConfig.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Configurations\\VehicleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T07:14:20.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "ProductConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\ProductConfig.cs",
+              "RelativeDocumentMoniker": "Kemar.WHL.Repository\\Configurations\\ProductConfig.cs",
+              "ToolTip": "C:\\Users\\Uday Gupta\\OneDrive\\Desktop\\C#\\Pra\\kemar.WHL.API\\Kemar.WHL.Repository\\Configurations\\ProductConfig.cs",
+              "RelativeToolTip": "Kemar.WHL.Repository\\Configurations\\ProductConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T13:02:48.656Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
